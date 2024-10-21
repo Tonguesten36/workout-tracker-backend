@@ -1,7 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, OneToMany} from 'typeorm';
-import { ExerciseCategory } from './exercise_category';
-import { MuscleGroup } from './muscle_group';
-import { WorkoutPlanExercise } from './workout_plan_exercise';
+import { ExerciseCategory } from './exercise_category.entity';
+import { MuscleGroup } from './muscle_group.entity';
+import { WorkoutPlanExercise } from './workout_plan_exercise.entity';
 
 @Entity('exercise')
 export class Exercise {

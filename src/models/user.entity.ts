@@ -1,7 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
-import { WorkoutPlan } from './workout_plan';
-import { UserJwt } from './user_jwt';
-import { WorkoutLog } from './workout_log';
+import { WorkoutPlan } from './workout_plan.entity';
+import { UserJwt } from './user_jwt.entity';
+import { WorkoutLog } from './workout_log.entity';
 
 @Entity('user')
 export class User {

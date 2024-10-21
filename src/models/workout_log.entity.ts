@@ -1,7 +1,7 @@
 import { Column, Entity, JoinTable, ManyToMany, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typeorm";
-import { WorkoutLogExercise } from "./workout_log_exercise";
-import { User } from "./user";
-import { WorkoutPlan } from "./workout_plan";
+import { WorkoutLogExercise } from "./workout_log_exercise.entity";
+import { User } from "./user.entity";
+import { WorkoutPlan } from "./workout_plan.entity";
 
 @Entity('workout_log')
 export class WorkoutLog {

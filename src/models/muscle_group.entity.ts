@@ -1,5 +1,5 @@
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
-import { Exercise } from "./exercise";
+import { Exercise } from "./exercise.entity";
 
 @Entity('muscle_group')
 export class MuscleGroup{
